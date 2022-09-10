@@ -54,7 +54,7 @@ public class DiracSettingsFragment extends PreferenceFragment implements
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.dirac_settings);
 
-	DiracUtils.initialize(getActivity());
+        DiracUtils.initialize(getActivity());
         boolean enhancerEnabled = DiracUtils.isDiracEnabled();
 
         mSwitchBar = (MainSwitchPreference) findPreference(PREF_ENABLE);
