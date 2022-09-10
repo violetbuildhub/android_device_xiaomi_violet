@@ -5,5 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_violet.mk
+    $(LOCAL_DIR)/acme_violet.mk
 
+COMMON_LUNCH_CHOICES := \
+    acme_violet-eng \
+    acme_violet-user \
+    acme_violet-userdebug
